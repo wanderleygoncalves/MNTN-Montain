@@ -168,6 +168,10 @@ body {
       @media(max-width: 1024px) {
         top: -1em;
       }
+      @media(max-width: 414px) {
+        top: 3em;
+      }
+      
 
       &-title {
         color: var(--color-title);
@@ -184,6 +188,10 @@ body {
         @media(max-width: 1024px) {
           margin-left: 17em;
           width: 50%;
+        }
+
+        @media(max-width: 414px) {
+          margin:  0em auto;
         }
         
         &::before {
@@ -206,6 +214,10 @@ body {
         font-size: 60px;
         text-align: center;
         font-weight: 700;
+
+        @media(max-width: 414px) {
+          font-size: 55px;
+        }        
       }
       
       .scroll-down {
@@ -215,7 +227,11 @@ body {
         @media(max-width: 1024px) {
           margin-left: 12em;
         }
-
+        @media(max-width: 414px) {
+          margin:  2em auto;
+          justify-content: center;
+        }
+        
         &-title {
           color: var(--color-text-geral);
           margin: 0 1em;
@@ -296,6 +312,11 @@ body {
         @media(max-width: 1024px) {
           margin: 5em 2em;
         }
+
+        @media(max-width: 414px) {
+          margin: 10em 1em;
+        }
+        
         a {
           color: var(--color-text-geral);
           font-size: 19px;
@@ -395,6 +416,7 @@ body {
           .left {
             margin-right: 2em;
 
+
             &-title {
               font-size: 18px;
               color: var(--color-title);
@@ -402,6 +424,10 @@ body {
               
               @media(max-width: 1024px) {
                 margin-left: 6.6em;
+              }
+
+              @media(max-width: 414px) {
+                margin-left: 10.6em;
               }
 
               &::before {
@@ -425,6 +451,12 @@ body {
             
             &-sub-description {
               line-height: 32px;
+            }
+          }
+
+          .right {
+            @media(max-width: 414px) {
+              margin: 0 -1em;
             }
           }
         }
@@ -451,11 +483,19 @@ body {
               top: 3.6em;
               left: -0.7em;
             }
+
+            @media(max-width: 414px) {
+              top: 3.2em;
+            }
           }
+
           .left {
             @media(max-width: 768px) {
               position: relative;
               left: -1.5em;
+            }
+            @media(max-width: 414px) {
+              margin: 0 -2em;
             }
           }
           .right {
@@ -479,6 +519,10 @@ body {
               @media (max-width: 768px) {
                 margin-left: 5.3em;
               }
+
+              @media(max-width: 414px) {
+                margin-left: 21.8em;
+              }
   
               &::before {
                 content: '';
@@ -496,6 +540,11 @@ body {
                 @media (max-width: 768px) {
                   font-size: 55px;
                 }
+
+                @media(max-width: 414px) {
+                  margin: 0 2.6em;
+                  font-size: 45px;
+                }
             }
             &-sub-description {
               line-height: 32px;
@@ -503,6 +552,11 @@ body {
               span {
                 font-size: 20px;
                 font-weight: 700;
+              }
+
+              @media(max-width: 414px) {
+                margin: 0 7.5em;
+                width: 55%;
               }
             }
           }
@@ -544,6 +598,7 @@ body {
               @media(max-width: 768px) {
                 margin-left: 4.5em;
               }
+              
             }
             &-description {
               font-size: 64px;
@@ -552,6 +607,9 @@ body {
                 @media (max-width: 768px) {
                   font-size: 55px;
                 }
+                @media(max-width: 414px) {
+                  font-size: 45px;
+                }
             }
             &-sub-description {
               line-height: 32px;
@@ -559,6 +617,11 @@ body {
               span {
                 font-size: 20px;
                 font-weight: 700;
+              }
+              
+              @media(max-width: 414px) {
+                margin: 0 -2.6em;
+                width: 100%;
               }
             }
           }
@@ -577,7 +640,9 @@ body {
   background-color: var(--Bg-color);
   margin: -30em 0;
   
-
+  @media(max-width: 414px) {
+    padding: 10em 0;
+  }
   .items {
     display: flex;
     justify-content: space-around;
@@ -612,6 +677,10 @@ body {
       width: 50%;
       display: flex;
       justify-content: space-around;
+
+      @media(max-width: 414px) {
+        display: none;
+      }
       .column-1 {
         
         .title {
