@@ -84,6 +84,11 @@ body {
   color: var(--color-title);
   font-size: 1.2em;
 }
+@media (max-width: 414px) {
+  #main-header .wrapper .navigation {
+    display: none;
+  }
+}
 #main-header .navigation {
   display: flex;
 }

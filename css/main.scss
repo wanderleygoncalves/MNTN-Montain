@@ -87,6 +87,9 @@ body {
             }
           }
         }
+        @media(max-width: 414px) {
+          display: none;
+        }
       }
     }
   
