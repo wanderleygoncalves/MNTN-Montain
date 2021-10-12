@@ -492,6 +492,12 @@ body {
             }
           }
 
+          .link {
+            @media(max-width: 414px) {
+              margin-left: 7.4em;
+            }
+          }
+
           .left {
             @media(max-width: 768px) {
               position: relative;
@@ -581,6 +587,12 @@ body {
             }
           }
           
+          .link {
+            @media(max-width: 414px) {
+              margin-left: -2.5em;
+            }
+          }
+
           .left {
             margin-right: 2em;
             
