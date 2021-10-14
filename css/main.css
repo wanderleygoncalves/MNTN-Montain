@@ -208,7 +208,7 @@ body {
   height: 2px;
   width: 72px;
   position: absolute;
-  margin: 0.5em 26em;
+  margin: 0.5em -5em;
 }
 @media (max-width: 1024px) {
   #home-page .page-background .wrapper-title::before {
